@@ -1,0 +1,25 @@
+#DAY 5 ASSIGNMENT
+#Ist program
+str="what we think we become; we are Python programmer"
+print("the index values of a substring we in given string ")
+for i in range(0,len(str)):
+	if(str[i]=="w"):
+		if(str[i+1]=="e"):
+			if(str[i+2]==" "):
+				print(i)
+#2nd program
+str1="How are you"
+str2="HOW ARE YOU"
+str3="how are you"
+str4="how@kl"
+str5="HOW#"
+print(str1.islower())
+print(str1.isupper())
+print(str2.islower())
+print(str2.isupper())
+print(str3.islower())
+print(str3.isupper())
+print(str4.islower())
+print(str4.isupper())
+print(str5.islower())
+print(str5.isupper())
